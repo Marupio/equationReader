@@ -10,7 +10,6 @@ EXE_LIBS = \
     -lincompressibleRASModels \
     -lincompressibleTransportModels \
     -lfiniteVolume \
-    -llduSolvers \
     -L$(FOAM_USER_LIBBIN) \
     -lequationReader
 
