@@ -1,5 +1,5 @@
     // Update dependents
-    eqnSrcR = turbulence->R();
+    eqnSrcR == turbulence->R();
 
     // scalars
     scalarOut = eqns.evaluateScalar("sOut");
