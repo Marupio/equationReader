@@ -7,16 +7,15 @@
 Description
 ===========
 An extension to OpenFOAM that allows you to read equations from a dictionary
-file and (optionally) have them evaluated at every time step.  It is a user-
-installed modification to OpenFOAM's core library.
+file and (optionally) have them evaluated at every time step.
 
 Original Author
 ===============
-David L. F. Gaden (davegaden@hotmail.com)
+David L. F. Gaden (dlfgaden@gmail.com)
 
 Current Maintainer
 ==================
-David L. F. Gaden (davegaden@hotmail.com)
+David L. F. Gaden (dlfgaden@gmail.com)
 
 Contributors
 ============
