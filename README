@@ -1,7 +1,7 @@
                                      |---------------------.
                                      | David L. F. Gaden's |
                     .----------------|---------------------'
-                    | equationReader |  Version:    0.5.1
+                    | equationReader |  Version:    0.6.0
                     '----------------|
 
 Description
@@ -23,7 +23,7 @@ David L. F. Gaden : base version
 
 Documentation
 =============
-Coming soon.
+github.com/Marupio/equationReader/wiki
 
 Installation/Compilation
 ========================
@@ -39,6 +39,7 @@ Required OpenFOAM-Version (Known to work with)
 ==============================================
 1.6-ext
 2.1.x
+2.2.x
 
 History
 =======
@@ -57,7 +58,14 @@ History
     * Bug fixes:
         * Dimension-checking for min and max functions
         * Moved IOobjects to db directory
- 2012-10-25:
+ 2011-09-25: Version 0.5.0
+    * Improved treatment of fields - now approximately 10x faster
+    * Introduced version numbers to keep track of changes
+ 2012-10-25: Version 0.5.1
     * Moved to git
     * Bug fixes:
         * Circular reference detection now working
+ 2013-08-29: Version 0.6.0
+    * Uploaded to github and OpenFOAM-extend
+    * Restructured applications and tutorials directories for consistency
+    * Made opening splash optional

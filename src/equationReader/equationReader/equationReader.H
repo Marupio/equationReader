@@ -476,7 +476,7 @@ public:
 
 
     // Constructor (construct null)
-    equationReader();
+    equationReader(bool showSplash = true);
 
     // Destructor
     virtual ~equationReader();

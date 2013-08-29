@@ -1121,7 +1121,7 @@ void Foam::equationReader::set(const label index, equation * eqn) const
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
-Foam::equationReader::equationReader()
+Foam::equationReader::equationReader(bool showSplash)
 :
     scalarSources_
     (
@@ -1148,16 +1148,20 @@ Foam::equationReader::equationReader()
         word("sphericalTensor")
     )
 {
-    Info
-        << "/*                       |---------------------." << token::NL
-        << " * This application uses | David L. F. Gaden's |  "
-        << "Please cite me if possible" << token::NL
-        << " *      .----------------|---------------------'  "
-        << "See the README for more info" << token::NL
-        << " *      | equationReader |  Version:    " << version()
-        << token::NL
-        << " *      '----------------|" << token::NL
-        << " */" << endl;
+    if (showSplash)
+    {
+        Info
+            << "/*                       |---------------------." << token::NL
+            << " * This application uses | David L. F. Gaden's |  "
+            << "Please cite me if possible" << token::NL
+            << " *      .----------------|---------------------'  "
+            << "See the wiki for more info" << token::NL
+            << " *      | equationReader |  Version:    " << version()
+            << token::NL
+            << " *      '----------------|  Wiki:       "
+            << "github.com/Marupio/equationReader/wiki" << token::NL
+            << " */" << endl;
+    }
     if (debug)
     {
         reportEmbeddedDispatchFunction_
