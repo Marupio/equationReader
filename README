@@ -1,8 +1,11 @@
-                                     |---------------------.
-                                     | David L. F. Gaden's |
-                    .----------------|---------------------'
-                    | equationReader |  Version:    0.6.0
-                    '----------------|
+                         |---------------------.
+                         | David L. F. Gaden's |
+        .----------------|---------------------'
+        | equationReader |  Version:    0.6.1
+        '----------------|  Wiki:       github.com/Marupio/equationReader/wiki
+                         V
+        Please cite: dx.doi.org/10.5203/sc_gad_1
+
 
 Description
 ===========
@@ -12,6 +15,7 @@ file and (optionally) have them evaluated at every time step.
 Original Author
 ===============
 David L. F. Gaden (dlfgaden@gmail.com)
+With supervision by Dr. Eric L. Bibeau (Eric.Bibeau@ad.umanitoba.ca)
 
 Current Maintainer
 ==================
@@ -69,3 +73,5 @@ History
     * Uploaded to github and OpenFOAM-extend
     * Restructured applications and tutorials directories for consistency
     * Made opening splash optional
+ 2013-10-16: Version 0.6.1
+    * Added DOI citation detail
